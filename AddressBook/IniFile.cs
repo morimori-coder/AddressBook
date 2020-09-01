@@ -14,6 +14,8 @@ namespace AddressBook {
         /// </summary>
         public string LoginComand { get; private set; }
 
+        // コミットとプッシュのテスト
+
         public IniFile(string filePath) {
             // ファイルの存在チェック
             // 存在しない場合はエラー終了
